@@ -82,3 +82,81 @@ const bottle1 = {
   }
     
     
+// Funtions
+// Defining a Function
+function login(username, password) {
+  // validate username and password
+  if (!username || !password) {
+    return 'username or password not provided';
+  }
+  // verify username and password
+  if (username == 'amaachiaaaaa' && password == '12345') {
+     return 'user is logged in';
+  } else {
+    return 'invalid username or password'
+  }
+    
+}
+
+// invoking a function
+login('amaachiaaaaa');
+
+
+// Basic Arithematic operations
+11 + 12;
+190 + 50;
+1 + 1.7;
+150 - 267;
+47/56;
+14 % 3;
+
+
+Number('2y') + 5
+'2' + '2'
+Math.max(50,65,10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
