@@ -115,6 +115,40 @@ Number('2y') + 5
 '2' + '2'
 Math.max(50,65,10)
 
+// Strings in JavaScript 
+// Concatenation
+const firstname = 'Melisa';
+const lastname = 'Achiaa';
+const middlename = 'Ama'
+firstname + ' ' + middlename + ' ' + lastname;
+
+// Template literal
+`${firstname} ${middlename} ${lastname}`;
+
+
+//String Methods
+
+let fullName = "Melisa Ama Achiaa"
+fullName.length
+
+for(let i =0; i<= fullName.length -1; i++){
+  console.log(i)
+}
+fullName.toUpperCase()
+fullName.charAt(13)
+fullName.slice(6,15)
+fullName.split("")
+fullName.replace("Achiaa", "bills")
+fullName.indexOf("poah")
+
+// string conversion
+Number("3.243")
+parseInt("3.243")
+parseFloat("3.243")
+let amount = 5000
+console.log(`GHS${amount}`)
+amount.toString()
+
 
 
 
