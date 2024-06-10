@@ -151,6 +151,79 @@ amount.toString()
 
 
 
+// Write a function thatt will add a participant to our Google Classroom
+
+// Functions
+function addParticipant(fullname, email) {
+  // validate fullname and email
+  if (!fullname || !email) {
+    return "participant not added";
+  }
+  // verify fullname and email
+  if (fullname == "Ellen Ntiamoah" && email == "ellenntiamoah@gmail.com") {
+    return "participant added";
+  } else {
+    return "participant not added";
+  }
+}
+
+// invoking a function
+addParticipant("Ellen Ntiamoah", "ellenntiamoah@gmail.com");
+addParticipant('Melisa Ama Achiaa', 'melisaachiaa@gmail.com');
+
+
+// functions
+function addParticipant() {
+  return 'participant added'
+}
+
+// Michael's answer
+
+const participants = [];
+function addParticipant(email) {
+  // check if email was provided
+  if (!email) {
+    return 'no email provided';
+  }
+  
+  // check if email is valid
+  if (!email.includes('@')) {
+    return 'invalid email provided';
+  }
+  
+  
+// Add email to participants
+
+participants.push(email);
+return 'participant added';
+}
+
+addParticipant('eforextrabeauty@gmail.com');
+addParticipant('ellenntiamoah@gmail.com');
+addParticipant('ellenntiamoah@outlook.com');
+addParticipant();
+participants;
+
+
+
+// Arrays in JavaScript
+const users = [
+  {
+   username: 'Melisa',
+  password: '12345',
+  email: 'melisaachiaa@gmail.com'
+},
+
+{
+  username: 'Ellen Ntiamoah',
+  password: '1234',
+  email: 'ellenntiamoah@gmail.com'
+}
+]
+
+
+
+
 
 
 
