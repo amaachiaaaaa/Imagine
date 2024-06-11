@@ -206,20 +206,72 @@ participants;
 
 
 
-// Arrays in JavaScript
-const users = [
-  {
-   username: 'Melisa',
-  password: '12345',
-  email: 'melisaachiaa@gmail.com'
-},
+// // Arrays in JavaScript
+// const users = [
+//   {
+//    username: 'Melisa',
+//   password: '12345',
+//   email: 'melisaachiaa@gmail.com'
+// },
 
-{
-  username: 'Ellen Ntiamoah',
-  password: '1234',
-  email: 'ellenntiamoah@gmail.com'
+// {
+//   username: 'Ellen Ntiamoah',
+//   password: '1234',
+//   email: 'ellenntiamoah@gmail.com'// Write a function that will take a user with first name,lastname and return fullname.
+
+// functions
+function fullName(user) {
+  return `${user.firstname} ${user.lastname}`;
+
 }
+
+// functions
+function fullName(user) {
+  return {
+    ...user,
+  fullName:  `${user.firstname} ${user.lastname}`
+  }
+
+}
+
+const user = {firstname : 'Melisa',
+              lastname : 'Bridgerton'}
+
+fullName(user);
+
+// Array map
+const users = [
+ {firstname : 'Melisa', lastname : 'Featherington'},
+{firstname : 'Ellen', lastname : 'Ntiamoah'},
+{firstname : 'Evans', lastname :'Nketsia'},
+{firstname : 'Pearl', lastname : 'Akrong'},
+{firstname : 'Borrison', lastname : 'Sarpong'}
+
 ]
+
+// users.map(fullName);
+
+// Square of Numbers
+function square(number) {
+  return number **2;
+}
+
+square(5);
+
+const numbers = [8,7,9,5,6,3];
+numbers.map(square);
+
+
+// Array filter
+function itsEven(number) {
+  return number % 2 === 0;
+}
+
+itsEven(5);
+numbers.filter(itsEven)
+// }
+// ]
+
 
 
 
