@@ -295,6 +295,63 @@ if (email !== user.email){
 
 passwordReset()
 
+// You have been given an array of students marked at absent and others marked as present.
+// write a function that returns the total number of students present.
+
+const students = [
+  {id: 1, present: true},
+  {id: 2, present: true},
+  {id: 3, absent: false},
+  {id: 4, present: true},
+  {id: 5, absent: false},
+  {id: 6, present: true},
+  
+]
+
+function studentsPresent(students ) {
+  return '0';
+}
+
+studentsPresent(students);
+
+function studentsPresent(students) {
+  let total = 0;
+  for (let i = 0; i < students.length; i++) {
+    // for any iteration if student is present then increase total present by 1;
+    if (students[i].present) {
+      total++;
+    }
+  }
+  return total;
+}
+
+studentsPresent(students);
+
+
+// Classes in JavaScipt
+const grade = Number(89)
+grade;
+
+
+
+class Laptop {
+  constructor(brand, color) {
+    this.brand = brand;
+    this.color = color;
+  }
+}
+
+const laptop1 = new Laptop('Dell', 'black');
+const laptop2 = new Laptop('Hp', 'silver');
+const laptop3 = new Laptop('Macbook', 'pink');
+
+laptop1.brand;
+laptop2.brand;
+
+
+
+ 
+
 
 
 
